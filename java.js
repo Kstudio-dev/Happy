@@ -1,5 +1,4 @@
-<script>
- function push(){
+function push(){
   Push.create("更新情報", 
    {
     body: "ブログの更新をお知らせします!",
@@ -11,4 +10,3 @@
     }
   })
 }
-</script>
